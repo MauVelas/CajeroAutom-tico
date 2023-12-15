@@ -13,10 +13,10 @@ logIn.addEventListener("submit", function(event){
 
     if(email === users[0][0] && password === users[0][2]){
         window.location.href = "index3.html"
-    }
+    } else {
     if(email === users[1][0] && password === users[1][2]){
         window.location.href = "index4.html"
-    }
+    } else {
     if(email === users[2][0] && password === users[2][2]){
         window.location.href = "index5.html"
     }
@@ -25,4 +25,4 @@ logIn.addEventListener("submit", function(event){
         mensaje.textContent = "Este correo electrónico no tiene el formato adecuado. Intentalo nuevamente"
         document.body.appendChild(mensaje)
     }
-})
+} }} )
