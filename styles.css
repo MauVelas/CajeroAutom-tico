@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body {
+    font-family: 'Silkscreen', sans-serif;
+    background: linear-gradient(to bottom, #236a84, #3f8bfd);
+    height: 100vh
+}
+
+.bloque1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 80px;
+    font-size: 25px;
+}
+
+.Titulo1 {
+    margin-left: 160px;
+    margin-top: -125px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.Titulo2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.cuadros1 {
+    padding: 10px;
+}
+
+img {
+    width: 150px;
+    justify-content: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.Boton1 {
+    background-color: #110266;
+    padding: 20px;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.boton2 {
+    background-color: #110266;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.letras1 {
+    font-size: 20px;
+}
+
+.login-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    height: 400px;
+    width: 900px;
+    margin-left: 270px;
+    margin-top: 80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.TituloJuan {
+    text-align: center;
+    font-size: 50px;
+}
+
+.AccionJuan {
+    font-size: 33px;
+}
+
+p {
+    font-size: 33px;
+    margin-left: 100px;
+}
+
+.saldo1 {
+    margin-left: 130px;
+    font-size: 33px;
+    
+}
+
+.saldo2 {
+    margin-left: 360px;
+    margin-top: 40px;
+
+    background-color: #110266;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.saldo3 {
+    margin-left: 155px;
+
+    background-color: #110266;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.cambioSaldo1 {
+    margin-left: 350px;
+    margin-top: -105px;
+}
+
+.cambioSaldo2 {
+    margin-left: 650px;
+    margin-top: -24px;
+}
